@@ -41,7 +41,7 @@
 
 ![Fluffy Transform challenge](../img/misc_fluffy_transform.png)
 
-Provided challenge resources:
+Provided challenge resource:
 
 ```text
 challenge.wav
