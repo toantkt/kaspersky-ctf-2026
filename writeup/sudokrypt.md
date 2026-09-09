@@ -45,12 +45,14 @@
 
 ## Challenge Description
 
-![Sudokrypt challenge](../img/crypto_sudokrypt.png)
+Source: [Kaspersky{CTF} challenge 3](https://ctf.kaspersky.com/challenges/3)
 
-Provided challenge resources:
+![Sudokrypt challenge (img)](../img/crypto_sudokrypt.png)
+
+Provided challenge resource: [sudocrypt_08ec969ff2e58b97.tar.gz](../source/sudocrypt_08ec969ff2e58b97.tar.gz)
 
 ```text
-sudocrypt.tar.gz
+sudocrypt_08ec969ff2e58b97.tar.gz
 │
 └── static/
     ├── server.py

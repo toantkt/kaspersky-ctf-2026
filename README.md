@@ -1,13 +1,21 @@
-# Kaspersky CTF 2026 Write-ups
+# Kaspersky CTF 2026 Writeups
 
-Write-ups for **Kaspersky CTF 2026**, documenting the reasoning, techniques, commands, and mistakes behind each solved challenge.
+Writeups for **Kaspersky CTF 2026**, documenting the reasoning, techniques, commands, and mistakes behind each solved challenge.
+
+## Table of Contents
+
+- [Kaspersky CTF 2026 Writeups](#kaspersky-ctf-2026-writeups)
+  - [Table of Contents](#table-of-contents)
+  - [Challenge Index](#challenge-index)
+  - [Repository Structure](#repository-structure)
+  - [Writeup Format](#writeup-format)
 
 ## Challenge Index
 
-| Challenge        | Category | Write-up                                          |
-| ---------------- | -------- | ------------------------------------------------- |
-| Fluffy Transform | Misc     | [Fluffy Transform](write-ups/fluffy_transform.md) |
-| Sudokrypt        | Crypto   | [Sudokrypt](write-ups/sudokrypt.md)               |
+| Challenge        | Category | Writeup                                         |
+| ---------------- | -------- | ----------------------------------------------- |
+| Fluffy Transform | Misc     | [Fluffy Transform](writeup/fluffy_transform.md) |
+| Sudokrypt        | Crypto   | [Sudokrypt](writeup/sudokrypt.md)               |
 
 ## Repository Structure
 
@@ -22,7 +30,11 @@ kaspersky-ctf-2026/
 │   ├── crypto_sudokrypt.png
 │   └── misc_fluffy_transform.png
 │
-├── write-ups/
+├── resource/
+│   ├── challenge_f25cea1608c1e224.wav
+│   └── sudocrypt_08ec969ff2e58b97.tar.gz
+│
+├── writeup/
 │   ├── fluffy_transform.md
 │   └── sudokrypt.md
 │
@@ -31,13 +43,13 @@ kaspersky-ctf-2026/
 └── README.md
 ```
 
-## Write-up Format
+## Writeup Format
 
-The challenge write-ups follow the same structure:
+The challenge writeups follow the same structure:
 
-* **Recon** - service enumeration, source-code review, and important observations.
-* **Exploitation** — the complete attack path, including commands, payloads, algorithms, and relevant solver output.
-* **Dead Ends** — approaches that looked promising but failed, including why they failed.
-* **Flag / Finding** — the final result.
-* **Tools Used** — software and libraries that were relevant to the solve.
-* **Lessons Learned** — techniques worth remembering for future CTFs.
+- **Recon** - service enumeration, source-code review, and important observations.
+- **Exploitation** — the complete attack path, including commands, payloads, algorithms, and relevant solver output.
+- **Dead Ends** — approaches that looked promising but failed, including why they failed.
+- **Flag / Finding** — the final result.
+- **Tools Used** — software and libraries that were relevant to the solve.
+- **Lessons Learned** — techniques worth remembering for future CTFs.
