@@ -49,7 +49,7 @@ Source: [Kaspersky{CTF} challenge 3](https://ctf.kaspersky.com/challenges/3)
 
 ![Sudokrypt challenge (img)](../img/crypto_sudokrypt.png)
 
-Provided challenge resource: [sudocrypt_08ec969ff2e58b97.tar.gz](../source/sudocrypt_08ec969ff2e58b97.tar.gz)
+Provided challenge resource: [sudocrypt_08ec969ff2e58b97.tar.gz](../resource/sudocrypt_08ec969ff2e58b97.tar.gz)
 
 ```text
 sudocrypt_08ec969ff2e58b97.tar.gz

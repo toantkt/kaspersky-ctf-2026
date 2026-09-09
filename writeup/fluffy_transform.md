@@ -43,7 +43,7 @@ Source: [Kaspersky{CTF} challenge 6](https://ctf.kaspersky.com/challenges/6)
 
 ![Fluffy Transform challenge](../img/misc_fluffy_transform.png)
 
-Provided challenge resource: [challenge_f25cea1608c1e224.wav](../source/challenge_f25cea1608c1e224.wav)
+Provided challenge resource: [challenge_f25cea1608c1e224.wav](../resource/challenge_f25cea1608c1e224.wav)
 
 ```text
 challenge_f25cea1608c1e224.wav
