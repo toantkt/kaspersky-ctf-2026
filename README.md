@@ -3,7 +3,7 @@
 
 # Kaspersky CTF 2026 Writeups
 
-Writeups for **Kaspersky CTF 2026**, documenting the reasoning, techniques, commands, and mistakes behind each solved challenge.
+Writeups for **Kaspersky CTF 2026**, documenting the reasoning, techniques, commands, and mistakes behind each solved challenge, with AI-assisted analysis and documentation.
 
 ## Table of Contents
 
