@@ -1,3 +1,6 @@
+![CTF](https://img.shields.io/badge/CTF-Kaspersky%20CTF%202026-red)
+![Writeups](https://img.shields.io/badge/Writeups-2-blue)
+
 # Kaspersky CTF 2026 Writeups
 
 Writeups for **Kaspersky CTF 2026**, documenting the reasoning, techniques, commands, and mistakes behind each solved challenge.

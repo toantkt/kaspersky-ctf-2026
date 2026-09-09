@@ -386,11 +386,11 @@ The core finding is that the WAV implements a layered analog-looking transport f
 
 ## Tools Used
 
-- `ffprobe` — inspect WAV metadata.
-- Python 3 — spectrum inspection and the complete decoder.
+- `ffprobe` — inspection of WAV metadata and stream information.
+- `python3` — spectrum analysis and the complete decoder.
 - `numpy` — FFTs, coordinate arrays, vectorized distance calculations, and run-length handling.
 - `scipy.signal` — carrier mixing and zero-phase Butterworth low-pass filtering.
-- `soundfile` — read the WAV samples without an external audio player.
+- `soundfile` — reading WAV samples directly without requiring an external audio player.
 
 ## Lessons Learned
 
