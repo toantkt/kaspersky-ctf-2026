@@ -21,7 +21,6 @@
     - [Important Parameters](#important-parameters)
     - [Chosen Plaintext](#chosen-plaintext)
   - [Exploitation](#exploitation)
-    - [Attack Chain](#attack-chain)
     - [1. Collect All 96 Oracle Blocks](#1-collect-all-96-oracle-blocks)
     - [2. Reverse the Public Outer Layers](#2-reverse-the-public-outer-layers)
     - [3. Recover Candidate Stream Values](#3-recover-candidate-stream-values)
@@ -267,58 +266,6 @@ for every byte.
 This is the key property of the chosen plaintext. It removes the unknown symbol value from the `inner_word()` equations and makes the hidden stream values recoverable through a small candidate search.
 
 ## Exploitation
-
-### Attack Chain
-
-The complete solve can be summarized as:
-
-```text
-96 × chosen-plaintext queries
-        │
-        ▼
-00 11 22 ... ff
-        │
-        ▼
-reverse diffusion
-        │
-        ▼
-reverse public wrapper
-        │
-        ▼
-recover candidate stream values
-        │
-        ▼
-resolve symbol_inv[0] + rotations
-        │
-        ▼
-96 samples × 16 lanes
-        │
-        ▼
-common order-56 recurrence
-        │
-        ▼
-56 spectral nodes
-        │
-        ▼
-16 × 56 spectral coefficients
-        │
-        ▼
-verify recovered generator
-        │
-        ▼
-reproduce fold_for_flag()
-        │
-        ▼
-predict six flag stream blocks
-        │
-        ▼
-reverse flag encryption
-        │
-        ▼
-FLAG
-```
-
-The attack does **not** recover the session key. It reconstructs the part of the internal state that is sufficient to reproduce the encryption stream.
 
 ### 1. Collect All 96 Oracle Blocks
 
